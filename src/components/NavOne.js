@@ -1,32 +1,33 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Link from 'next/link';
+import { connect } from "react-redux";
 
 class NavOne extends Component {
-    constructor(){
-        super()
+
+    constructor(props) {
+        super(props)
         this.state = {
-          sticky: false
+            sticky: false
         };
     }
 
-    componentDidMount(){
+    componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
-
         //Mobile Menu
         this.mobileMenu();
     }
 
     handleScroll = () => {
 
-      if (window.scrollY > 100) {
-        this.setState({
-            sticky: true
-        });
-      } else if (window.scrollY < 100) {
-        this.setState({
-            sticky: false
-        });
-      }
+        if (window.scrollY > 100) {
+            this.setState({
+                sticky: true
+            });
+        } else if (window.scrollY < 100) {
+            this.setState({
+                sticky: false
+            });
+        }
 
     }
 
@@ -41,13 +42,14 @@ class NavOne extends Component {
 
         //Close Mobile Menu
         let closeMenu = document.querySelector(".side-menu-close");
-            closeMenu.addEventListener("click", function () {
+        closeMenu.addEventListener("click", function () {
             mainNav.classList.remove('active');
         });
 
     }
 
     render() {
+        const { navigationItems } = this.props;
         return (
             <div>
                 <header className="header-area">
@@ -114,7 +116,18 @@ class NavOne extends Component {
                                                                 <li><Link href="/index2"><a>Home 2</a></Link></li>
                                                             </ul>
                                                         </li>
-                                                        <li><Link href="/school"><a>schools</a></Link></li>
+                                                        <li><a href="#">schools</a>
+                                                            <ul className="dropdown-menu-item">
+
+                                                            </ul>
+                                                            <ul className="dropdown-menu-item">
+                                                                {
+                                                                    navigationItems.schools && navigationItems.schools.map(school => (
+                                                                        <li key={school.id}><Link href="/school/[id]" as={`/school/${school.id}`}><a>{school.name}</a></Link></li>
+                                                                    ))
+                                                                }
+                                                            </ul>
+                                                        </li>
                                                         <li><a href="#">causes</a>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/causes"><a>causes</a></Link></li>
@@ -169,6 +182,16 @@ class NavOne extends Component {
                                         <li><Link href="/index2"><a>Home 2</a></Link></li>
                                     </ul>
                                 </li>
+                                <li className="sidenav__item"><a href='#'>schools</a>
+                                    <span className="menu-plus-icon"></span>
+                                    <ul className="side-sub-menu">
+                                        {
+                                            navigationItems.schools && navigationItems.schools.map(school => {
+                                                <li key={school.id}><Link href="/school/[id]" as={`/school/${school.id}`}><a>{school.name}</a></Link></li>
+                                            })
+                                        }
+                                    </ul>
+                                </li>
                                 <li className="sidenav__item"><a href="#">causes</a>
                                     <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
@@ -220,4 +243,8 @@ class NavOne extends Component {
     }
 }
 
-export default NavOne;
+const mapStateToProps = state => ({
+    navigationItems: state.navigationItems
+});
+
+export default connect(mapStateToProps)(NavOne);

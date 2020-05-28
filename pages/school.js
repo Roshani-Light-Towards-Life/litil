@@ -25,7 +25,7 @@ const SchoolPage = () => {
         return <div>Loading...</div>;
       }
     return (
-        <Layout pageTitle="Roshani | Schools">
+        <Layout pageTitle="ROSHANI | Schools">
             <NavOne />
             <PageHeader title="Schools" />
             <section className="sponsor-area">

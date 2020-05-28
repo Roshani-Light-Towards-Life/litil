@@ -18,7 +18,7 @@ import CallToActionTwo from "../src/components/CallToActionTwo";
 
 const HomePage = (props) => {
   return (
-    <Layout pageTitle="Roshani - Light towards life">
+    <Layout pageTitle="ROSHANI - Light towards life">
       <NavOne />
       <SliderOne />
       <EntryArea />

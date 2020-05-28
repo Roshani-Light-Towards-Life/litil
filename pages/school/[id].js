@@ -11,7 +11,7 @@ const SchoolPage = () => {
     const router = useRouter()
     const { id } = router.query 
     return (
-        <Layout pageTitle="Roshni | School Detail">
+        <Layout pageTitle="ROSHANI | School Detail">
             <NavOne />
             <PageHeader title="School Detail" />
             <SchoolDetail />

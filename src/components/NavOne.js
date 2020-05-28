@@ -61,7 +61,7 @@ class NavOne extends Component {
                                         <div className="info-box info-box-1 d-flex align-items-center">
                                             <ul className="d-flex align-items-center">
                                                 <li><a href="#"><i
-                                                    className="fa fa-envelope"></i>needhelp@oxpitan.com</a></li>
+                                                    className="fa fa-envelope"></i>contact@roshni.co.in</a></li>
                                                 <li><a href="#"><i className="fa fa-phone-square"></i>666 888 0000</a>
                                                 </li>
                                             </ul>
@@ -72,8 +72,6 @@ class NavOne extends Component {
                                     <div className="top-action-content info-action-content">
                                         <div className="info-box info-box-2 d-flex align-items-center justify-content-end">
                                             <ul className="top-action-list d-flex align-items-center">
-                                                <li className="action__text"><a href="#">login</a></li>
-                                                <li className="action__text"><a href="#">register</a></li>
                                                 <li><a href="#"><i className="fa fa-twitter"></i></a></li>
                                                 <li><a href="#"><i className="fa fa-facebook"></i></a></li>
                                                 <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
@@ -110,16 +108,8 @@ class NavOne extends Component {
                                             <div className="navigation-top">
                                                 <nav className="main-navigation">
                                                     <ul>
-                                                        <li className="active"><Link href="/"><a>Home</a></Link>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/"><a>Home 1</a></Link></li>
-                                                                <li><Link href="/index2"><a>Home 2</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">schools</a>
-                                                            <ul className="dropdown-menu-item">
-
-                                                            </ul>
+                                                        <li className="active"><Link href="/"><a>Home</a></Link></li>
+                                                        <li><a href="#">school donations</a>
                                                             <ul className="dropdown-menu-item">
                                                                 {
                                                                     navigationItems.schools && navigationItems.schools.map(school => (
@@ -128,35 +118,15 @@ class NavOne extends Component {
                                                                 }
                                                             </ul>
                                                         </li>
-                                                        <li><a href="#">causes</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/causes"><a>causes</a></Link></li>
-                                                                <li><Link href="/causes-detail"><a>causes detail</a></Link></li>
-                                                                <li><Link href="/donate"><a>donate now</a></Link></li>
-                                                            </ul>
+                                                        <li><Link href ="/trainings"><a>Skill Training</a></Link></li>
+                                                        <li><a href="#">about</a>
+                                                                <ul className="dropdown-menu-item">
+                                                                    <li><Link href="/about"><a>about</a></Link></li>
+                                                                    <li><Link href="/causes"><a>causes</a></Link></li> 
+                                                                    <li><Link href="/teams"><a>team</a></Link></li>
+                                                                </ul>
                                                         </li>
-                                                        <li><a href="#">events</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/events"><a>events</a></Link></li>
-                                                                <li><Link href="/events-detail"><a>events detail</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">news</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/news"><a>news</a></Link></li>
-                                                                <li><Link href="/single-news"><a>news detail</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#">pages</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/about"><a>about</a></Link></li>
-                                                                <li><Link href="/gallery"><a>gallery</a></Link></li>
-                                                                <li><Link href="/volunteer"><a>become a volunteer</a></Link></li>
-                                                                <li><Link href="/team"><a>our team</a></Link></li>
-                                                                <li><Link href="/sponsor"><a>sponsors</a></Link></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><Link href="/contact"><a>contact</a></Link></li>
+                                                       <li><Link href="/contact"><a>contact</a></Link></li>
                                                     </ul>
                                                 </nav>
                                             </div>

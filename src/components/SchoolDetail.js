@@ -1,7 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
+import matter from 'gray-matter'
+import ReactMarkdown from 'react-markdown'
 
-const CausesDetail = () => {
+const SchoolDetail = (props) => {
+    const { school } = props;
     return (
         <section className="causes-detail-area">
             <div className="container">
@@ -14,10 +17,10 @@ const CausesDetail = () => {
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
-                                        <h3 className="blog__title"><Link href="/causes-detail"><a>Save Poor Childrens</a></Link>
+                                        <h3 className="blog__title">{school.name}
                                         </h3>
                                         <ul className="blog__list">
-                                            <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
+                                            <li><i className="fa fa-user"></i> Principal: <span>{school.principalName}</span></li>
                                             <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
                                         </ul>
                                     </div>
@@ -26,23 +29,7 @@ const CausesDetail = () => {
                                     </div>
                                 </div>
                                 <div className="blog-inner-content-2">
-                                    <p className="causes__text">
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form, by injected humour,
-                                        or randomised words which don't look even slightly believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't anything embarrassing hidden in the middle of text.
-                                    </p>
-                                    <p className="causes__text causes__text2">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever since the 1500s, when an unknown printer took a galley of
-                                        type and scrambled it to make a type specimen book. It has survived not
-                                        only five centuries, but also the leap into electronic typesetting,
-                                        remaining essentially unchanged. It was popularised in the 1960s with
-                                        the release of Letraset sheets containing Lorem Ipsum passages,
-                                        and more recently with desktop publishing software like.
-                                    </p>
+                                    <ReactMarkdown source={school.article.content} className="causes__text"/>
                                     <div className="inner-causes-img-box row">
                                         <div className="col-lg-6">
                                             <div className="inner-causes-img-item inner-causes-img-item1">
@@ -61,99 +48,6 @@ const CausesDetail = () => {
                                         when an unknown printer took a
                                         galley of type and scrambled it to make a type specimen book
                                     </p>
-                                    <div className="presentation-block">
-                                        <h3><i className="fa fa-file-pdf-o"></i> Our Presentation</h3>
-                                        <button className="theme-btn" type="button"><i
-                                            className="fa fa-download"></i> download
-                                        </button>
-                                    </div>
-                                    <div className="single-comment">
-                                        <div className="comment__boxed">
-                                            <h3 className="single__comment-title">Comments</h3>
-                                            <ul className="comments-list">
-                                                <li>
-                                                    <div className="comment">
-                                                        <div className="avatar-img">
-                                                            <img className="avatar__img" alt=""
-                                                                src="/images/comment-avatar.jpg" />
-                                                        </div>
-                                                        <div className="comment-body">
-                                                            <div className="meta-data">
-                                                                <h4 className="comment__author">
-                                                                    David marks
-                                                                    <span className="comment__date">3 hours ago</span>
-                                                                </h4>
-                                                            </div>
-                                                            <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
-                                                                <p className="comment__text">
-                                                                    Sending love. My nephews Nick and Anthony Salaber
-                                                                    are your teammates,
-                                                                    so I know the caliber person you are.
-                                                                    Our whole family is sending our best to you and your
-                                                                    family.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="comment">
-                                                        <div className="avatar-img">
-                                                            <img className="avatar__img" alt=""
-                                                                src="/images/comment-avatar2.jpg" />
-                                                        </div>
-                                                        <div className="comment-body">
-                                                            <div className="meta-data">
-                                                                <h4 className="comment__author">
-                                                                    Christine Eve
-                                                                    <span className="comment__date">4 hours ago</span>
-                                                                </h4>
-                                                            </div>
-                                                            <div className="comment-content">
-                                                                <a className="reply__btn theme-btn" href="#">Reply</a>
-                                                                <p className="comment__text">
-                                                                    You're a champ. Your in my thoughts and prayers
-                                                                    every day.
-                                                                    You're the best teammate a bloke could ask for and
-                                                                    we're going to
-                                                                    return the favour my being
-                                                                    there for you every step along this journey. Stay
-                                                                    strong
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="comment__form form-shared">
-                                            <h3 className="single__comment-title">Leave a Comment</h3>
-                                            <form action="#">
-                                                <div className="row">
-                                                    <div className="col-lg-6 col-sm-6">
-                                                        <div className="form-group">
-                                                            <input type="text" className="form-control"
-                                                                placeholder="Full Name" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-6 col-sm-6">
-                                                        <div className="form-group">
-                                                            <input type="email" className="form-control"
-                                                                placeholder="Email Address" />
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-12">
-                                                        <div className="form-group">
-                                                            <textarea className="textarea" name="message"
-                                                                placeholder="Leave a Comment"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-12">
-                                                        <button className="theme-btn submit__btn">submit now</button>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -166,11 +60,11 @@ const CausesDetail = () => {
                                         <img src="/images/author-avatar.jpg" alt="" />
                                     </div>
                                     <div className="author__detail">
-                                        <span className="author__meta">created april 11, 2018</span>
-                                        <h4 className="author__title">Organizer: <a href="#">Jessica Smith</a></h4>
+                                        <h4 className="author__title">Point of contact: <a href="#">{school.principalName}</a></h4>
                                         <ul className="author__list">
-                                            <li><i className="fa fa-tag"></i> Education</li>
-                                            <li><i className="fa fa-map-marker"></i> Wrightwood, Canada</li>
+                                            <li><i className="fa fa-map-marker"></i> {school.address}</li>
+                                            <li><i className="fa fa-phone"></i> {school.phoneNumber}</li>
+                                            <li><i className="fa fa-envelope"></i> {school.phoneNumber}</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -244,4 +138,4 @@ const CausesDetail = () => {
     );
 };
 
-export default CausesDetail;
+export default SchoolDetail;

@@ -13,9 +13,9 @@ const Contact = () => {
                             <h2 className="section__title">Get in Touch With Us</h2>
                             <p className="section__meta">Write a message</p>
                             <p className="section__desc">
-                                Aliq is notm hendr erit a augue insu image pellen tes que id erat quis sollicitud.
-                                Lorem ipsum is simply free text dolor sit amet,
-                                consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
+                                We are a bunch of passionate and crazy people, who actually believe that the world can be made a better place for every human being. A better home, a better school and of cource a better life.
+                                We strive to make this world a better place for every human being. At present we are focusing on Rural India. At present, we support for following causes: Children's education & well being, Women's financial 
+                                freedom, Increase literacy and awareness in rural India, Self reliant Rural India.
                             </p>
                             <ul className="section__list">
                                 <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -61,8 +61,7 @@ const Contact = () => {
                         <div className="contact-item contact-item1">
                             <h3 className="contact__title">About</h3>
                             <p className="contact__desc">
-                                Lorem ipsum is simply free text dolor sit
-                                amet, duise consectetur ullam blandit
+                                A non-profit org on a mission to contribute for children's education, women's financial freedom and self-reliant rural India.
                             </p>
                         </div>
                     </div>
@@ -70,8 +69,7 @@ const Contact = () => {
                         <div className="contact-item contact-item2">
                             <h3 className="contact__title">Address</h3>
                             <p className="contact__desc">
-                                660 broklyn street , 88 new york, United states of
-                                america
+                                Prestige Silver Crest, Kadubisanahalli, Bellandur, Bengaluru, PIN-560103, Karnataka, India.
                             </p>
                         </div>
                     </div>
@@ -79,8 +77,8 @@ const Contact = () => {
                         <div className="contact-item contact-item3">
                             <h3 className="contact__title">Contact</h3>
                             <p className="contact__desc">
-                                needhelp@oxpitan.com <br />
-                                666 888 000
+                                contact@roshani.co.in <br />
+                                +91-7483481458
                             </p>
                         </div>
                     </div>

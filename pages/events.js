@@ -7,7 +7,7 @@ import Events from "../src/components/Events";
 
 const EventsPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Events">
+        <Layout pageTitle="ROSHANI | Events">
             <NavOne />
             <PageHeader title="Events" />
             <Events />

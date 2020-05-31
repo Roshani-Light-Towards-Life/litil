@@ -11,7 +11,10 @@ module.exports = withCSS(withSass({
                 }
             }
         });
-
+        config.module.rules.push({
+            test: /\.md$/,
+            use: 'raw-loader',
+          });
         return config;
     }
 }));

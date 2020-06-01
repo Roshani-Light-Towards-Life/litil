@@ -7,7 +7,7 @@ import Team from "../src/components/Team";
 
 const TeamPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Team">
+        <Layout pageTitle="ROSHANI | Team">
             <NavOne />
             <PageHeader title="Our Team" />
             <Team />

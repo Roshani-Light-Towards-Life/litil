@@ -8,7 +8,7 @@ import Sponsor from "../src/components/Sponsor";
 
 const SponsorPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Sponsors">
+        <Layout pageTitle="ROSHANI | Sponsors">
             <NavOne />
             <PageHeader title="Sponsors" />
             <Sponsor />

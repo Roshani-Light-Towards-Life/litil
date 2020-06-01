@@ -10,17 +10,13 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    <img src="/images/img1.jpg" alt="" />
+                                    <img src="/images/causes-1.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Save Poor Childrens</a></Link>
+                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Scholarship for Children</a></Link>
                                     </h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
-                                    <ul className="blog__list">
-                                        <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
-                                        <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
-                                    </ul>
-                                    <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    < p className = "blog__desc" > We are committed to facilitate free & quality education for not-so-privilleged children in the country. We offer scholarships based on merit list.</p>
+                                    <br/><Link href="/donate"><a className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -29,17 +25,13 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
-                                    <img src="/images/img2.jpg" alt="" />
-                                        <span className="blog__tag"><i className="fa fa-flash"></i> trending</span>
+                                    <img src="/images/causes-4.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/causes-detail"><a>They Want to Study</a></Link></h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
-                                    <ul className="blog__list">
-                                        <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
-                                        <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
-                                    </ul>
-                                    <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Sports & Wellness</a></Link></h3>
+                                    < p className="blog__desc"> We support physical wellbeing of children by donating Sports Kit to the schools.We also help schools to conduct Yoga & Mediation practices
+                                    for children.< /p>
+                                    <br/><Link href="/donate"><a className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -48,17 +40,13 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item3">
                                 <div className="blog-img">
-                                    <img src="/images/img3.jpg" alt="" />
+                                    <img src="/images/causes-3.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Healthy Food for All</a></Link>
+                                    <h3 className="blog__title"><Link href="/causes-detail"><a>An Angel Sponsor</a></Link>
                                     </h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
-                                    <ul className="blog__list">
-                                        <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
-                                        <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
-                                    </ul>
-                                    <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <p className="blog__desc">Every child is special and so are their dreams. Through this program we help to connect a child with an Angel Sponsor or long term sponsorship.</p>
+                                   <br/> <Link href="/donate"><a className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -67,16 +55,12 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item4">
                                 <div className="blog-img">
-                                    <img src="/images/img10.jpg" alt="" />
+                                    <img src="/images/rural-working-women.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Need Educations</a></Link></h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
-                                    <ul className="blog__list">
-                                        <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
-                                        <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
-                                    </ul>
-                                    <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Financial Freedom for Women</a></Link></h3>
+                                    <p className="blog__desc">We support financial freedom for women. We believe, women who are financially free can take better decisions for themselves, their family and their children.</p>
+                                    <br/><Link href="/donate"><a className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -85,16 +69,13 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    <img src="/images/img2.jpg" alt="" />
+                                    < img src = "/images/rural-career-consultation.jpg"
+                                    alt = "" / >
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Clean Water Issues</a></Link></h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
-                                    <ul className="blog__list">
-                                        <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
-                                        <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
-                                    </ul>
-                                    <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Career Consultation For Women</a></Link></h3>
+                                    <p className="blog__desc">Provide consultation & support them to achieve financial freedom through various online options and opportunites in their surroundings.</p>
+                                    <br/><Link href="/donate"><a className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>
@@ -103,17 +84,13 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
-                                    <img src="/images/img11.jpg" alt="" />
+                                    <img src="/images/women-literacy.jpg" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
-                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Help the Eco System</a></Link>
+                                    <h3 className="blog__title"><Link href="/causes-detail"><a>Literacy and Awareness for Women</a></Link>
                                     </h3>
-                                    <p className="blog__desc">Aliq is notm hendr erit a augue insu image pellen tes.</p>
-                                    <ul className="blog__list">
-                                        <li><i className="icon-target"></i> Goal: <span>$30,000</span></li>
-                                        <li><i className="fa fa-line-chart"></i> Raised: <span>25,270</span></li>
-                                    </ul>
-                                    <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                    <p className="blog__desc">Literacy is less about knowing how to read & write and more about developing awareness. Awareness towards their rights, personal & social responsibilities.</p>
+                                    <br/><Link href="/donate"><a className="theme-btn">donate now</a></Link>
                                 </div>
                             </div>
                         </div>

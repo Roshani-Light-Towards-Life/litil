@@ -7,9 +7,9 @@ import Footer from "../src/components/Footer";
 
 const CausesPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Causes">
+        <Layout pageTitle="ROSHANI | Causes">
             <NavOne />
-            <PageHeader title="Causes" />
+            <PageHeader title="Causes we work for" />
             <Causes />
             <Footer />
         </Layout>

@@ -12,7 +12,7 @@ import Footer from "../src/components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | About">
+        <Layout pageTitle="ROSHANI | About">
             <NavOne />
             <PageHeader title="About" />
             <AboutArea />

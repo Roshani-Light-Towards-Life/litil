@@ -17,10 +17,6 @@ const AboutPage = () => {
             <PageHeader title="About" />
             <AboutArea />
             <MixerAreaTwo />
-            <TeamArea />
-            <FaqArea />
-            <ServiceArea />
-            <ClientsLogoTwo />
             <Footer />
         </Layout>
     );

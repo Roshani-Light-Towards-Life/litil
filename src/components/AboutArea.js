@@ -7,30 +7,25 @@ const AboutArea = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="about-large-img">
-                            <img src="/images/about-img.jpg" alt="" />
+                            <img src="/images/causes-we-care-for.jpg" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-5">
                         <div className="about-semi-img">
-                            <img src="/images/about-img2.jpg" alt="" />
+                            <img src="/images/about-top.png" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-7">
                         <div className="about-heading">
                             <div className="section-heading">
-                                <div className="section-icon">
-                                    <img src="/images/section-icon.png" alt="section-icon" />
-                                </div>
                                 <h2 className="section__title">Discover About ROSHANI</h2>
-                                <p className="section__meta">learn about non profit ngo</p>
+                                <p className="section__meta">learn about the non profit org</p>
                                 <p className="section__desc">
-                                    Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunced amet
-                                    ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orcium
-                                    dolors sit amet elit magnis amet ultrices lorem ipsum is simply free
-                                    text purusrfed aliquet. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                                    penatibus et magnis dis parturient montes, nascetur ridiculus.
-                                    penatibus et magnis dis parturient montes, nascetur ridiculus.
+                                    We are a bunch of passionate and crazy people, who actually believe that the world can be made a better place
+                                    for every human being. A better home, a better school, a better society and of cource a better life.
+                                    We strive to make this world a better place for every human being. At present we are focusing on rural India & we support
+                                    for following causes: Children's education & wellness, Women's financial freedom, Literacy and awareness in rural India. 
+                                    We also want to contribute towards self-reliant rural India in long term.
                                 </p>
                             </div>
                         </div>

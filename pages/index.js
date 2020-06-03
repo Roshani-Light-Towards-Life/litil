@@ -21,17 +21,13 @@ const HomePage = (props) => {
     <Layout pageTitle="ROSHANI - Light towards life">
       <NavOne />
       <SliderOne />
-      <EntryArea />
       <HiwArea />
       <ServiceArea />
       <MixerArea />
       <CausesArea />
-      <ClientsLogo />
       <HelpingArea />
       <TeamArea />
       <CallToAction />
-      <BlogHome />
-      <Map />
       <CallToActionTwo />
       <Footer />
     </Layout>

@@ -2064,6 +2064,13 @@ a:hover {
     padding-top: 120px;
     padding-bottom: 90px;
 }
+.causes-area .causes-large-img {
+    margin-bottom: 60px;
+}
+.causes-area .causes-large-img img,
+.causes-area .causes-semi-img img {
+    width: 100%;
+}
 .causes-area .blog-content-wrap {
     margin-top: 51px;
 }

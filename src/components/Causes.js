@@ -55,7 +55,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item4">
                                 <div className="blog-img">
-                                    <img src="/images/rural-working-women.jpg" alt="" />
+                                    <img src="/images/rural-women-financial-freedom.png" alt="" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link href="/causes-detail"><a>Financial Freedom for Women</a></Link></h3>
@@ -69,8 +69,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item1">
                                 <div className="blog-img">
-                                    < img src = "/images/rural-career-consultation.jpg"
-                                    alt = "" / >
+                                    <img src = "/images/rural-women-working.png" alt = "Rural Working Women" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link href="/causes-detail"><a>Career Consultation For Women</a></Link></h3>
@@ -84,7 +83,7 @@ const Causes = () => {
                         <div className="blog-content">
                             <div className="blog-item blog-item2">
                                 <div className="blog-img">
-                                    <img src="/images/women-literacy.jpg" alt="" />
+                                    <img src="/images/rural-women-literacy.png" alt="Rural Women Literacy" />
                                 </div>
                                 <div className="blog-inner-content">
                                     <h3 className="blog__title"><Link href="/causes-detail"><a>Literacy and Awareness for Women</a></Link>

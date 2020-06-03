@@ -117,6 +117,9 @@ a,
 a:hover {
     text-decoration: none;
 }
+.col-half-offset{
+    margin-left:3.166666667%
+}
 
 /*=============================
     general-style
@@ -3306,17 +3309,16 @@ a:hover {
 .gallery-area {
     position: relative;
     z-index: 1;
-    padding-top: 120px;
-    padding-bottom: 112px;
+    /* padding-bottom: 112px; */
 }
 .gallery-area:before,
 .gallery-area:after {
-    position: absolute;
+    /* position: absolute; */
     content: '';
     top: 0;
     left: 0;
     width: 100%;
-    height: 525px;
+    /* height: 525px; */
     background-color: rgba(66, 66, 66, 0.94);
 }
 .gallery-area:after {
@@ -3588,6 +3590,9 @@ a:hover {
     padding-top: 119px;
     padding-bottom: 90px;
 }
+.no-padding {
+    padding-top: 0px;
+}
 .team-area .team-content-wrap {
     margin-top: 51px;
 }
@@ -3600,6 +3605,38 @@ a:hover {
 }
 .team-area .team-content-wrap .team-item .team__img img {
     width: 100%;
+}
+.team-area .team-content-wrap .team-item .team__img .team__img-links2 {
+    position: absolute;
+    bottom: -10px;
+    z-index: 1;
+    padding: 25px 0 15px;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    text-align: center;
+    width: 100%;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(20%,rgba(0,0,0,.03)),to(rgba(0,0,0,0.99)));
+    background: linear-gradient(to bottom,rgba(0,0,0,.03) 20%,rgba(0,0,0,0.99) 100%);
+    opacity: 1;
+    color: #fff;
+
+    /* visibility: hidden; */
+}
+.team-area .team-content-wrap .team-item .team__img .team__img-links2 .team__title-meta {
+    color: #fff;
+    text-transform: uppercase;
+}
+.team-area .team-content-wrap .team-item .team__img .team__img-links2 ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+.team-area .team-content-wrap .team-item .team__img .team__img-links2 ul li a {
+    display: block;
+    color: #fff;
+    margin: 0 10px;
 }
 .team-area .team-content-wrap .team-item .team__img .team__img-links {
     position: absolute;
@@ -3668,6 +3705,7 @@ a:hover {
     text-transform: capitalize;
     font-weight: 800;
     margin-bottom: 2px;
+    color: #fff;
 }
 .team-area .team-content-wrap .team-item .team__title .team__title-title a {
     color: #fff;
@@ -3678,6 +3716,7 @@ a:hover {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
+    display:block;
 }
 .team-area .team-content-wrap .team-item2 .team__title:before,
 .team-area .team-content-wrap .team-item2 .team__title:after {
@@ -4174,7 +4213,7 @@ a:hover {
     -moz-border-radius: 0;
     border-radius: 0;
     border: none;
-    background-color: #f2f0ec;
+    background-color: #e4e2de;
     color: #818181;
     padding: 19px 30px;
     -webkit-box-shadow: 0 0 0 0;

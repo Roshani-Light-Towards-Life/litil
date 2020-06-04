@@ -6,8 +6,13 @@ const GET_SCHOOLS = gql`
       id
       name
       principalName
+      pocName
       email
       address
+      image{
+        url
+        previewUrl
+      }
       phoneNumber
       article{
         title
@@ -16,6 +21,11 @@ const GET_SCHOOLS = gql`
           url,
           previewUrl
         }
+      },
+      scholarships{
+        id
+        year
+        name
       }
     }
   }

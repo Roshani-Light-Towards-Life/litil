@@ -8,7 +8,7 @@ const Volunteer = () => {
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading text-center">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <img src="/images/favicon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Register Now</h2>
                             <p className="section__meta">join us now</p>

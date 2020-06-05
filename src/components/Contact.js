@@ -1,12 +1,66 @@
 import React from 'react';
+import { useState } from 'react';
+import { Form } from 'react-advanced-form';
 
 const Contact = () => {
+
+    const [message, setMessage] = useState({
+        Name: '',
+        Email: '',
+        phone: '',
+        message: ''
+    });
+
+    const [response, setResponse] = useState({
+        type: '',
+        message: ''
+    });
+
+    const handleChange = e =>
+        setMessage({ ...message, [e.target.name]: e.target.value });
+
+    const handleSubmit = async e => {
+        e.preventDefault();
+        try {
+        const res = await fetch('http://localhost:1337/messages', {
+            method: 'POST',
+            body: JSON.stringify(message),
+            headers: { 'Content-Type': 'application/json' }
+        });
+
+        const json = await res.json();
+
+        if (json.id) {
+            setResponse({
+            type: 'success',
+            message: 'Thank you for your message. We will get in touch with you'
+            });
+            document.getElementById("message").reset();
+            alert(response.message);
+        } else {
+            setResponse({
+            type: 'error',
+            message: json.message
+            });
+        }
+        } catch (e) {
+        console.log('An error occurred', e);
+        setResponse({
+            type: 'error',
+            message: 'An error occured while submitting the form'
+        });
+        }
+    };
+
     return (
         <section className="contact-area">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="section-heading">
+                            <div className="section-icon">
+                                <img src="/images/favicon.png" alt="section-icon" />
+                            </div>
                             <h2 className="section__title">Get in Touch With Us</h2>
                             <p className="section__meta">Write a message</p>
                             <p className="section__desc">
@@ -25,25 +79,31 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="form-shared">
-                            <form action="#" method="post">
+                            <form id="message" onSubmit={handleSubmit}>
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6 form-group">
-                                        <input className="form-control" type="text" name="name" placeholder="Full Name" />
+                                        <input className="form-control" type="text" name="name" placeholder="Full Name" pattern="^\D+$"
+                                            title="Only letters and special characters are allowed" onChange={handleChange}
+                                                           required />
                                     </div>
 
                                     <div className="col-lg-6 col-sm-6 form-group">
                                         <input className="form-control" type="email" name="email"
-                                               placeholder="Email Address" />
+                                               placeholder="Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" title="Please enter valid email address" onChange={handleChange}
+                                               required />
                                     </div>
 
                                     <div className="col-lg-12 form-group">
-                                        <input className="form-control" type="number" name="phone"
-                                               placeholder="Phone Number" />
+                                        <input className="form-control" type="text" name="phone"
+                                               placeholder="Phone Number" pattern="[2-9]{2}\d{8}" maxLength="10" title="Please enter 10 digit phone number"
+                                               onChange={handleChange}
+                                               required />
                                     </div>
 
                                     <div className="col-lg-12 col-sm-12 form-group">
                                         <textarea className="textarea" name="message"
-                                                  placeholder="Write a Message"></textarea>
+                                                  placeholder="Write a Message" onChange={handleChange}
+                                                  required ></textarea>
                                     </div>
 
                                     <div className="col-lg-12 col-sm-12">

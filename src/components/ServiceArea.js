@@ -19,10 +19,10 @@ const ServiceArea = () => {
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading service-heading">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <img src="/images/favicon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">We Believe that
-                                We can Save More Lifes with you</h2>
+                                We can Skill and Nourish More Lifes with you</h2>
                             <p className="section__meta">help us now</p>
                         </div>
                     </div>

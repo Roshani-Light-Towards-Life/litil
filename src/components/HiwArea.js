@@ -10,9 +10,9 @@ const HiwArea = () => {
                             <div className="hiw-item-img-box hiw-bg1">
                                 <figure>
                                     <img src="/images/hiw-img.jpg" alt="" />
-                                        <h3 className="hiw-title">More charity better lives</h3>
+                                        <h3 className="hiw-title">Poor children education</h3>
                                         <div className="hiw-btn-box">
-                                            <a href="#" className="theme-btn">read more</a>
+                                            <a href="/school/1" className="theme-btn">read more</a>
                                         </div>
                                 </figure>
                             </div>
@@ -23,9 +23,9 @@ const HiwArea = () => {
                             <div className="hiw-item-img-box hiw-bg2">
                                 <figure>
                                     <img src="/images/hiw-img2.jpg" alt="" />
-                                        <h3 className="hiw-title">How to become volunteer</h3>
+                                        <h3 className="hiw-title">Get Skilled</h3>
                                         <div className="hiw-btn-box">
-                                            <a href="#" className="theme-btn">read more</a>
+                                            <a href="/trainings" className="theme-btn">read more</a>
                                         </div>
                                 </figure>
                             </div>
@@ -36,9 +36,9 @@ const HiwArea = () => {
                             <div className="hiw-item-img-box hiw-bg3">
                                 <figure>
                                     <img src="/images/hiw-img3.jpg" alt="" />
-                                        <h3 className="hiw-title">Poor children education</h3>
+                                        <h3 className="hiw-title">Become Angel Sponsor</h3>
                                         <div className="hiw-btn-box">
-                                            <a href="#" className="theme-btn">read more</a>
+                                            <a href="/causes" className="theme-btn">read more</a>
                                         </div>
                                 </figure>
                             </div>

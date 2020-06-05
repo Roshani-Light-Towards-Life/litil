@@ -118,7 +118,15 @@ class NavOne extends Component {
                                                                 }
                                                             </ul>
                                                         </li>
-                                                        <li><Link href ="/trainings"><a>Skill Training</a></Link></li>
+                                                        <li><a href ="#">training centers</a>
+                                                            <ul className="dropdown-menu-item">
+                                                              {
+                                                                navigationItems.trainingCenters && navigationItems.trainingCenters.map(trainingCenter => (
+                                                                    <li key={trainingCenter.id}><Link href="/trainingCenter/[id]" as={`/trainingCenter/${trainingCenter.id}`}><a>{trainingCenter.name}</a></Link></li>
+                                                                ))
+                                                              }
+                                                            </ul>
+                                                        </li>
                                                         <li><Link href="/causes"><a>causes</a></Link></li>
                                                         <li><a href="#">about</a>
                                                                 <ul className="dropdown-menu-item">

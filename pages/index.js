@@ -12,8 +12,6 @@ import ClientsLogo from "../src/components/ClientsLogo";
 import HelpingArea from "../src/components/HelpingArea";
 import TeamArea from "../src/components/TeamArea";
 import CallToAction from "../src/components/CallToAction";
-import BlogHome from "../src/components/BlogHome";
-import Map from "../src/components/Map";
 import CallToActionTwo from "../src/components/CallToActionTwo";
 
 const HomePage = (props) => {

@@ -29,7 +29,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">welcome to oxpitan</p>
+                                            <p className="slider__meta">welcome to Roshani</p>
                                             <h2 className="slider__title">Lend the helping hand get involved</h2>
                                             <a href="#" className="theme-btn">discover more</a>
                                         </div>
@@ -46,7 +46,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">welcome to oxpitan</p>
+                                            <p className="slider__meta">welcome to Roshani</p>
                                             <h2 className="slider__title">Lend the helping hand get involved</h2>
                                             <a href="#" className="theme-btn">discover more</a>
                                         </div>
@@ -63,7 +63,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">welcome to oxpitan</p>
+                                            <p className="slider__meta">welcome to Roshani</p>
                                             <h2 className="slider__title">Lend the helping hand get involved</h2>
                                             <a href="#" className="theme-btn">discover more</a>
                                         </div>

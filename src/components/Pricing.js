@@ -8,7 +8,7 @@ const Pricing = () => {
                     <div className="col-lg-5">
                         <div className="section-heading">
                             <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
+                                <img src="/images/favicon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">Pay us Monthly</h2>
                             <p className="section__meta">help us now</p>

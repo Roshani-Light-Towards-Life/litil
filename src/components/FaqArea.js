@@ -16,7 +16,7 @@ class FaqArea extends Component {
                         <div className="col-lg-6">
                             <div className="section-heading">
                                 <div className="section-icon">
-                                    <img src="/images/section-icon.png" alt="section-icon" />
+                                    <img src="/images/favicon.png" alt="section-icon" />
                                 </div>
                                 <h2 className="section__title">Have any Question?</h2>
                                 <p className="section__meta">frequently asked questions</p>

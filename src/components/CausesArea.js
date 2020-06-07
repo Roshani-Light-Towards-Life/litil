@@ -8,9 +8,6 @@ const CausesArea = () => {
                     <div className="row">
                         <div className="col-lg-8 mx-auto">
                             <div className="section-heading blog-heading text-center">
-                                <div className="section-icon">
-                                    <img src="/images/favicon.png" alt="section-icon" />
-                                </div>
                                 <h2 className="section__title">Latest Causes</h2>
                                 <p className="section__meta">help us now</p>
                             </div>

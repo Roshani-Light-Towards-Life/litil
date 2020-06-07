@@ -22,7 +22,7 @@ const ServiceArea = () => {
                                 <img src="/images/favicon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">We Believe that
-                                We can Skill and Nourish More Lifes with you</h2>
+                                we can Educate, Nourish & Skill more lifes with you</h2>
                             <p className="section__meta">help us now</p>
                         </div>
                     </div>
@@ -35,11 +35,9 @@ const ServiceArea = () => {
                                     <i className="icon-peace-1"></i>
                                 </div>
                                 <div className="service-content">
-                                    <h4 className="service__title">hope</h4>
+                                    <h4 className="service__title">Hope</h4>
                                     <p className="service__desc">
-                                        Lorem ipsum is simply free text
-                                        available
-                                        in the market wesbites.
+                                        We hope that human life can be supported to achive their optimum efficiency and best expression of their skillsets.                  
                                     </p>
                                 </div>
                             </div>
@@ -52,11 +50,9 @@ const ServiceArea = () => {
                                     <i className="icon-praying"></i>
                                 </div>
                                 <div className="service-content">
-                                    <h4 className="service__title">prayers</h4>
+                                    <h4 className="service__title">Prayer</h4>
                                     <p className="service__desc">
-                                        Lorem ipsum is simply free text
-                                        available
-                                        in the market wesbites.
+                                     
                                     </p>
                                 </div>
                             </div>
@@ -71,9 +67,7 @@ const ServiceArea = () => {
                                 <div className="service-content">
                                     <h4 className="service__title">peace</h4>
                                     <p className="service__desc">
-                                        Lorem ipsum is simply free text
-                                        available
-                                        in the market wesbites.
+                                        Peace comes from within. The more satifeid we are with the life, more peaceful it becomes.
                                     </p>
                                 </div>
                             </div>
@@ -88,9 +82,8 @@ const ServiceArea = () => {
                                 <div className="service-content">
                                     <h4 className="service__title">donation</h4>
                                     <p className="service__desc">
-                                        Lorem ipsum is simply free text
-                                        available
-                                        in the market wesbites.
+                                        Join us to start your contribution to educate, nurture and skill more people around us to make this world a better place for lives
+                                        around us.
                                     </p>
                                 </div>
                             </div>

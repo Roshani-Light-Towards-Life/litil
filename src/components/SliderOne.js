@@ -22,23 +22,6 @@ const SliderOne = () => {
             <div className="homepage-slide1">
 
                 <Swiper getSwiper={setSwiper}>
-                <div className="single-slide-item slide-bg1">
-                    <div className="slide-item-table">
-                        <div className="slide-item-tablecell">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-md-7">
-                                        <div className="slider-heading">
-                                            <p className="slider__meta">welcome to Roshani</p>
-                                            <h2 className="slider__title">Lend the helping hand get involved</h2>
-                                            <a href="#" className="theme-btn">discover more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div className="single-slide-item slide-bg2">
                     <div className="slide-item-table">
                         <div className="slide-item-tablecell">
@@ -46,9 +29,26 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">welcome to Roshani</p>
-                                            <h2 className="slider__title">Lend the helping hand get involved</h2>
-                                            <a href="#" className="theme-btn">discover more</a>
+                                            <p className="slider__meta">welcome to ROSHANI</p>
+                                            <h2 className="slider__title">Join us to make this world a better place.</h2>
+                                            <a href="causes" className="theme-btn">discover more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="single-slide-item slide-bg1">
+                    <div className="slide-item-table">
+                        <div className="slide-item-tablecell">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-md-7">
+                                        <div className="slider-heading">
+                                            <p className="slider__meta">Lend the helping hand</p>
+                                            <h2 className="slider__title">Let's make their dreams a reality</h2>
+                                            <a href="school" className="theme-btn">discover more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -63,9 +63,9 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">welcome to Roshani</p>
-                                            <h2 className="slider__title">Lend the helping hand get involved</h2>
-                                            <a href="#" className="theme-btn">discover more</a>
+                                            <p className="slider__meta">Get involved</p>
+                                            <h2 className="slider__title">Contribute towards women's financial freedom</h2>
+                                            <a href="training" className="theme-btn">discover more</a>
                                         </div>
                                     </div>
                                 </div>

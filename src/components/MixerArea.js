@@ -49,7 +49,7 @@ class MixerArea extends Component {
                                         <h3 className="counter">
                                             <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 63000 : 0} /></VisibilitySensor>
                                         </h3>
-                                        <p className="fun__text">Students Given Scholarships</p>
+                                        <p className="fun__text">Students who received scholarships</p>
                                     </div>
                                 </div>
                                 <div className="fun-content">
@@ -58,7 +58,7 @@ class MixerArea extends Component {
                                         <h3 className="counter">
                                             <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 3000 : 0} /></VisibilitySensor>
                                         </h3>
-                                        <p className="fun__text">Women got skilled</p>
+                                        <p className="fun__text">Women skilled so far</p>
                                     </div>
                                 </div>
                             </div>
@@ -67,22 +67,6 @@ class MixerArea extends Component {
 
                                     <Swiper>
 
-                                        <div className="fun-slide-item">
-                                            <div className="icon-quote">“</div>
-                                            <h3 className="funslide__text">
-                                                Every man must decide whether he will walk in the light
-                                                of creative altruism or in the darkness of destructive selfishness.
-                                            </h3>
-                                            <p className="funslide__name">Martin Luther King, jr</p>
-                                        </div>
-                                        <div className="fun-slide-item">
-                                            <div className="icon-quote">“</div>
-                                            <h3 className="funslide__text">
-                                                Every man must decide whether he will walk in the light
-                                                of creative altruism or in the darkness of destructive selfishness.
-                                            </h3>
-                                            <p className="funslide__name">Martin Luther King, jr</p>
-                                        </div>
                                         <div className="fun-slide-item">
                                             <div className="icon-quote">“</div>
                                             <h3 className="funslide__text">

@@ -5,8 +5,8 @@ import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css';
 
 class MixerArea extends Component {
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
             startCounter: false
         }
@@ -20,6 +20,7 @@ class MixerArea extends Component {
 
 
     render() {
+        const studentsCount  = this.props.studentsCount;
         return (
             <div>
                 <section className="mixer-area">
@@ -47,20 +48,20 @@ class MixerArea extends Component {
                                     <div className="fun-item fun-item2">
                                         <i className="icon-cancer"></i>
                                         <h3 className="counter">
-                                            <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 63000 : 0} /></VisibilitySensor>
+                                            <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? studentsCount : 0} /></VisibilitySensor>
                                         </h3>
                                         <p className="fun__text">Students Given Scholarships</p>
                                     </div>
                                 </div>
-                                <div className="fun-content">
+                                {/* <div className="fun-content">
                                     <div className="fun-item fun-item2">
                                         <i className="icon-cancer"></i>
                                         <h3 className="counter">
-                                            <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? 3000 : 0} /></VisibilitySensor>
+                                            <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? studentsCount : 0} /></VisibilitySensor>
                                         </h3>
                                         <p className="fun__text">Women got skilled</p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-lg-6">
                                 <div className="fun-content-slide">

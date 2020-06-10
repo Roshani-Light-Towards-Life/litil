@@ -3,6 +3,7 @@ import Layout from "../src/components/Layout";
 import NavOne from "../src/components/NavOne";
 import Footer from "../src/components/Footer";
 import SliderOne from "../src/components/SliderOne";
+import SliderTwo from "../src/components/SliderTwo";
 import EntryArea from "../src/components/EntryArea";
 import HiwArea from "../src/components/HiwArea";
 import ServiceArea from "../src/components/ServiceArea";
@@ -22,7 +23,6 @@ const HomePage = ({ props }) => {
       <NavOne />
       <SliderOne />
       <HiwArea />
-      <ServiceArea />
       <MixerArea studentsCount = { props.studentsCount } />
       <CausesArea />
       <HelpingArea />

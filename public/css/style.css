@@ -924,20 +924,15 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 .slider-area .slide-bg1 {
-    background-image: url("../images/slider1.jpg");
+    background-image: url("../images/Home-Page-Education.png");
 }
 .slider-area .slide-bg2 {
-    background-image: url("../images/slider2.jpg");
+    background-image: url("../images/Home-Page-Angel-Sponsor.png");
 }
 .slider-area .slide-bg3 {
-    background-image: url("../images/slider3.jpg");
+    background-image: url("../images/Home-Page-2.png");
 }
-.slider-area .slide-bg4 {
-    background-image: url("../images/slider4.jpg");
-}
-.slider-area .slide-bg5 {
-    background-image: url("../images/slider5.jpg");
-}
+
 .slider-area .slide-item-table {
     display: table;
     width: 100%;
@@ -1739,7 +1734,7 @@ a:hover {
     width: 413px;
     height: 698px;
     background-color: #e36955;
-    z-index: -1;
+    z-index: 1;
 }
 .fun-content-wrap .fun-content .fun-item {
     border-bottom: 2px solid #f2f0ec;
@@ -3249,7 +3244,7 @@ a:hover {
 .helping-area2:after {
     background-color: #863bae;
     margin-top: -261px;
-    height: 954px;
+    height: 741px;
 }
 .helping-area2 .helping-form .form-shared {
     margin-top: 51px;

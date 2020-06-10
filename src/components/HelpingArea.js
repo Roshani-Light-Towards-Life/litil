@@ -60,7 +60,7 @@ const HelpingArea = () => {
                                 <div className="section-icon">
                                     <img src="/images/favicon.png" alt="section-icon" />
                                 </div>
-                                <h2 className="section__title">Give a helping hand for homeless childrens</h2>
+                                <h2 className="section__title">Give us a helping hand for under-previlleged children.</h2>
                             </div>
                             <div className="helping-item">
                                 <div className="row">
@@ -72,14 +72,14 @@ const HelpingArea = () => {
                                     </div>
                                     <div className="col">
                                         <div className="helping-box helping-box2">
-                                            <i className="icon-water-bottle"></i>
-                                            <h4>water</h4>
+                                            <i className="icon-mortarboard"></i>
+                                            <h4>education</h4>
                                         </div>
                                     </div>
                                     <div className="col">
                                         <div className="helping-box helping-box3">
                                             <i className="icon-health"></i>
-                                            <h4>Medical</h4>
+                                            <h4>wellness</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -88,11 +88,10 @@ const HelpingArea = () => {
                         <div className="col-lg-6">
                             <div className="helping-text-box">
                                 <p className="helping__text">
-                                    Aliq is notm hendr erit a augue insu image pellen tes que
-                                    id erat quis simply free text sollicitud. Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing ullam blandit hendrerit faucibus suspendisse.
-                                    Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incidi labore et dolore magna aliqua enim ad minim veniam.
+                                    As part of this program, Angel Sponsors select one or more child whom they want to support with education, food and wellness in long term. 
+                                    We share the list of under-privilleged childrens in various schools along with their brief details. You can choose 1 or more children and 
+                                    support them for a minimum period of 5 years. Following are the suggested periods: 5 Years, 8 Years, 10 Years.
+                                    An Angel sponsor can choose to support till the child becomes financially independent or his/her future is secured.
                                 </p>
                             </div>
                         </div>
@@ -105,31 +104,15 @@ const HelpingArea = () => {
                         <div className="col-lg-6">
                             <div className="fun-content">
                                 <div className="fun-item fun-item1">
-                                    <img src="/images/helping-img.jpg" alt="" />
-                                </div>
-                                <div className="section-heading">
-                                    <div className="section-icon">
-                                        <img src="/images/favicon.png" alt="section-icon" />
-                                    </div>
-                                    <h2 className="section__title">Charity activities are taken place around the
-                                        world</h2>
-                                    <p className="section__desc">
-                                        Aliq is notm hendr erit a augue insu image pellen tes que id erat
-                                        quis simply free text sollicitud. Lorem ipsum dolor
-                                        sit not amet, consectetur adipiscing ullam
-                                        blandit simply free text hendrerit faucibus suspendisse.
-                                    </p>
+                                    <img src="/images/Home-Page-Sponsor-Form.png" alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="helping-form">
                                 <div className="section-heading">
-                                    <div className="section-icon">
-                                        <img src="/images/favicon.png" alt="section-icon" />
-                                    </div>
-                                    <h2 className="section__title text__white">Become Angel Sponsor</h2>
-                                    <p className="section__meta text__white">join us now</p>
+                                    <h2 className="section__title text__white">Become an Angel Sponsor</h2>
+                                    <p className="section__meta text__white">Join us now</p>
                                 </div>
                                 <div className="form-shared">
                                     <form id="sponsor-register" onSubmit={handleSubmit}>

@@ -7,9 +7,6 @@ const TeamArea = () => {
                 <div className="row">
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading">
-                            <div className="section-icon">
-                                <img src="/images/favicon.png" alt="section-icon" />
-                            </div>
                             <h2 className="section__title">Our Angel Sponsors</h2>
                             <p className="section__meta">meet individual sponsors</p>
                         </div>
@@ -38,7 +35,7 @@ const TeamArea = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item2">
                             <div className="team__img">
-                                <img src="/images/angel-sponsor-2.jpg" alt="team image" />
+                                <img src="/images/angel-sponsor-2.png" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
@@ -57,7 +54,7 @@ const TeamArea = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item3">
                             <div className="team__img">
-                                < img src = "/images/angel-sponsor-3.jpg"
+                                < img src = "/images/angel-sponsor-3.png"
                                 alt = "team image" / >
                                     <div className="team__img-links">
                                         <ul>
@@ -77,7 +74,7 @@ const TeamArea = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item4">
                             <div className="team__img">
-                                < img src = "/images/angel-sponsor-4.jpg"
+                                < img src = "/images/angel-sponsor-4.png"
                                 alt = "team image" / >
                                     <div className="team__img-links">
                                         <ul>
@@ -89,7 +86,7 @@ const TeamArea = () => {
                                     </div>
                             </div>
                             <div className="team__title">
-                                <h3 className="team__title-title"><a href="#">Priyanka</a></h3>
+                                <h3 className="team__title-title"><a href="#">Priyanka Pal</a></h3>
                                 <span className="team__title-meta">HR Professional</span>
                             </div>
                         </div>

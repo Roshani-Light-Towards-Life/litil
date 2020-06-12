@@ -38,8 +38,6 @@ const HomePage = ({ props }) => {
 };
 
 HomePage.getInitialProps = async ({ ctx, apolloClient }) => {
-  console.log(ctx.query)
-  const { slug } = ctx.query
   const data = await apolloClient.query({ query: GET_STUDENTS_COUNT});
   return { props: data.data }
 }

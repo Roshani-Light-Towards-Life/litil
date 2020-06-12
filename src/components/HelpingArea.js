@@ -142,6 +142,7 @@ const HelpingArea = () => {
                                             </div>
                                             <div className="col-lg-12">
                                                 <button className="theme-btn submit__btn">continue now</button>
+                                                <label>{ response.message }</label>
                                             </div>
                                         </div>
                                     </form>

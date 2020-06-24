@@ -4,10 +4,6 @@ import NavOne from "../src/components/NavOne";
 import PageHeader from "../src/components/PageHeader";
 import AboutArea from "../src/components/AboutArea";
 import MixerAreaTwo from "../src/components/MixerAreaTwo";
-import TeamArea from "../src/components/TeamArea";
-import FaqArea from "../src/components/FaqArea";
-import ServiceArea from "../src/components/ServiceArea";
-import ClientsLogoTwo from "../src/components/ClientsLogoTwo";
 import Footer from "../src/components/Footer";
 
 const AboutPage = () => {

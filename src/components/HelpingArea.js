@@ -57,9 +57,7 @@ const HelpingArea = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="section-heading mixer-heading">
-                                <div className="section-icon">
-                                    <img src="/images/favicon.png" alt="section-icon" />
-                                </div>
+
                                 <h2 className="section__title">Give us a helping hand for under-previlleged children.</h2>
                             </div>
                             <div className="helping-item">

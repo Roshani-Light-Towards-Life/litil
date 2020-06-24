@@ -58,9 +58,6 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="section-heading">
-                            <div className="section-icon">
-                                <img src="/images/favicon.png" alt="section-icon" />
-                            </div>
                             <h2 className="section__title">Get in Touch With Us</h2>
                             <p className="section__meta">Write a message</p>
                             <p className="section__desc">

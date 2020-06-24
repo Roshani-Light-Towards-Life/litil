@@ -28,9 +28,6 @@ class MixerArea extends Component {
                         <div className="row">
                             <div className="col-lg-8">
                                 <div className="section-heading mixer-heading">
-                                    <div className="section-icon">
-                                        <img src="/images/favicon.png" alt="section-icon" />
-                                    </div>
                                     <h2 className="section__title text__white">Fundraising for the people and causes you
                                         care about</h2>
                                     <a href="/donate" className="theme-btn">start donation</a>
@@ -53,15 +50,6 @@ class MixerArea extends Component {
                                         <p className="fun__text">Students who received scholarships</p>
                                     </div>
                                 </div>
-                                {/* <div className="fun-content">
-                                    <div className="fun-item fun-item2">
-                                        <i className="icon-cancer"></i>
-                                        <h3 className="counter">
-                                            <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall><CountUp end={this.state.startCounter ? studentsCount : 0} /></VisibilitySensor>
-                                        </h3>
-                                        <p className="fun__text">Women skilled so far</p>
-                                    </div>
-                                </div> */}
                             </div>
                             <div className="col-lg-6">
                                 <div className="fun-content-slide">

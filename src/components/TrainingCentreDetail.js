@@ -1,6 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
-import matter from 'gray-matter'
+
 import ReactMarkdown from 'react-markdown'
 import { buildImageUri } from "../util"
 
@@ -14,7 +13,7 @@ const TrainingCentreDetail = (props) => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <img src={buildImageUri(trainingCenter.article.images[0].url)} alt="" />
+    {trainingCenter.article.images.length>0 && <img src={buildImageUri(trainingCenter.article.images[0].url)} alt="" /> }
                                 </div>
                                 <div className="blog-inner-content">
                                     <div className="inner-causes-box">
@@ -78,8 +77,7 @@ const TrainingCentreDetail = (props) => {
                                   <div className="blog-content">
                                       <div className="blog-item blog-item1">
                                           <div className="blog-img">
-                                              <img src={buildImageUri(activity.images[0].url)} alt="" />
-                                              <img src="http://localhost:1337/uploads/Screen_Shot_2020-06-05_at_11.16.33_AM_9987faa785.png" alt="" />
+                                              {activity.images.length>0 && <img src={buildImageUri(activity.images[0].url)} alt="" />}
                                           </div>
 
                                           <div className="blog-inner-content">
@@ -89,12 +87,13 @@ const TrainingCentreDetail = (props) => {
                                                   <li> Event date: {activity.eventDate}</li>
                                               </ul>
                                               <br/>
-                                                  <ul className="author__list">
-                                                      <li><i className="fa fa-user"></i> {activity.POC[0].name}</li>
-                                                      <li><i className="fa fa-phone"></i> {activity.POC[0].phoneNumber}</li>
-                                                      <li><i className="fa fa-envelope"></i> {activity.POC[0].email}</li>
-                                                  </ul>
-                                                  <br/><br/>
+                                              {activity.POC.length>0 && 
+                                              <ul className="author__list">
+                                              <li><i className="fa fa-user"></i> {activity.POC[0].name}</li>
+                                              <li><i className="fa fa-phone"></i> {activity.POC[0].phoneNumber}</li>
+                                              <li><i className="fa fa-envelope"></i> {activity.POC[0].email}</li>
+                                          </ul>}
+                                                  
                                                 <ReactMarkdown source={activity.Description} className="causes__text"/>
                                               </div>
                                           </div>

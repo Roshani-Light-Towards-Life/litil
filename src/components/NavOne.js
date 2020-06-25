@@ -72,10 +72,8 @@ class NavOne extends Component {
                                     <div className="top-action-content info-action-content">
                                         <div className="info-box info-box-2 d-flex align-items-center justify-content-end">
                                             <ul className="top-action-list d-flex align-items-center">
-                                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                                <li><a href="https://twitter.com/ROSHANI76815171" target="_blank" ><i className="fa fa-twitter"></i></a></li>
+                                                <li><a href="https://www.facebook.com/Roshani-Light-Towards-Life-110800777345226" target="_blank" ><i className="fa fa-facebook"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>

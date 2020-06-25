@@ -25,7 +25,7 @@ const HiwArea = () => {
                                     <img src="/images/hiw-img2.png" alt="Women Skill Trainings" />
                                         <h3 className="hiw-title">Skill Trainings  for women</h3>
                                         <div className="hiw-btn-box">
-                                            <a href="/trainings/1" className="theme-btn">read more</a>
+                                            <a href="/trainingCenter/1" className="theme-btn">read more</a>
                                         </div>
                                 </figure>
                             </div>

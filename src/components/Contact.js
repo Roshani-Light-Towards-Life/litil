@@ -70,10 +70,8 @@ const Contact = () => {
                                 for following causes: Children 's education & wellness, Women's financial freedom, Literacy and awareness in rural India.
                             </p>
                             <ul className="section__list">
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                < li > < a href = "https://twitter.com/ROSHANI76815171" target="_blank" > < i className = "fa fa-twitter" > < /i></a > < /li>
+                                < li > < a href = "https://www.facebook.com/Roshani-Light-Towards-Life-110800777345226" target="_blank" > < i className = "fa fa-facebook" > < /i></a > < /li>
                             </ul>
                         </div>
                     </div>

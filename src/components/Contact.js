@@ -36,7 +36,7 @@ const Contact = () => {
             message: 'Thank you for your message. We will get in touch with you'
             });
             document.getElementById("message").reset();
-            alert(response.message);
+            // alert(response.message);
         } else {
             setResponse({
             type: 'error',
@@ -58,9 +58,6 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="section-heading">
-                            <div className="section-icon">
-                                <img src="/images/favicon.png" alt="section-icon" />
-                            </div>
                             <h2 className="section__title">Get in Touch With Us</h2>
                             <p className="section__meta">Write a message</p>
                             <p className="section__desc">
@@ -106,6 +103,7 @@ const Contact = () => {
 
                                     <div className="col-lg-12 col-sm-12">
                                         <button className="theme-btn submit__btn" type="submit">Send Message</button>
+                                        <label>{ response.message }</label>
                                     </div>
                                 </div>
                             </form>

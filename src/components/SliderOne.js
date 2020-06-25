@@ -48,7 +48,7 @@ const SliderOne = () => {
                                         <div className="slider-heading">
                                             <p className="slider__meta">Lend the helping hand</p>
                                             <h2 className="slider__title">Let's make their dreams a reality</h2>
-                                            <a href="school" className="theme-btn">discover more</a>
+                                            <a href="causes" className="theme-btn">discover more</a>
                                         </div>
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@ const SliderOne = () => {
                                         <div className="slider-heading">
                                             <p className="slider__meta">Get involved</p>
                                             <h2 className="slider__title">Contribute towards women's financial freedom</h2>
-                                            <a href="training" className="theme-btn">discover more</a>
+                                            <a href="causes" className="theme-btn">discover more</a>
                                         </div>
                                     </div>
                                 </div>

@@ -7,9 +7,6 @@ const CategoryArea = () => {
                 <div className="row">
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading">
-                            <div className="section-icon">
-                                <img src="/images/favicon.png" alt="section-icon" />
-                            </div>
                             <h2 className="section__title">Browse by Categories</h2>
                             <p className="section__meta">browse cause now</p>
                         </div>

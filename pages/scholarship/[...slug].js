@@ -23,7 +23,6 @@ const ScholarshipPage = ({ props }) => {
 
 };
 ScholarshipPage.getInitialProps = async ({ ctx, apolloClient }) => {
-    console.log(ctx.query)
     const { slug } = ctx.query
     const data = await apolloClient.query({ query: GET_SCHOLARSHIP, variables: { id: slug[0], schoolId: slug[1] } });
     return { props: data.data }

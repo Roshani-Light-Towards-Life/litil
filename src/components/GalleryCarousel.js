@@ -55,21 +55,9 @@ const GalleryCarousel = (props) => {
     return (
         <div className="gallery-area text-center">
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-8 mx-auto">
-                        <div className="section-heading">
-                            <div className="section-icon">
-                                <img src="/images/favicon.png" alt="section-icon" />
-                            </div>
-                            <h2 className="section__title text__white">Check Our Gallery</h2>
-                            <p className="section__meta">photography</p>
-                        </div>
-                    </div>
-                </div>
                 <div className="row gallery-wrap">
                     <div className="col-lg-12">
                         <div className="gallery-carousel">
-
                             <Swiper {...params}>
                                 {props.images.map(image => {
                                     return (

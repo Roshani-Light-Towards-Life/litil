@@ -5,39 +5,41 @@ import { buildImageUri } from "../util"
 const ScholarshipDetail = (props) => {
     const { scholarship } = props;
     const students = []
-    for (const student of scholarship.students) {
-        if (student.image) {
-            students.push(
-                <div className="col-lg-2 col-sm-6 col-half-offset">
-                    <div className="team-item team-item1">
-                        <div className="team__img">
-                            <img src={buildImageUri(student.image.url)} alt="team image" />
-                            <div className="team__img-links2">
-                                <span className="team__title-meta">rank – {student.classRank}</span>
+    if (scholarship.students) {
+        for (const student of scholarship.students) {
+            if (student.image) {
+                students.push(
+                    <div className="col-lg-2 col-sm-6 col-half-offset">
+                        <div className="team-item team-item1">
+                            <div className="team__img">
+                                <img src={buildImageUri(student.image.url)} alt="team image" />
+                                <div className="team__img-links2">
+                                    <span className="team__title-meta">rank – {student.classRank}</span>
+                                </div>
+                            </div>
+                            <div className="team__title">
+                                <h3 className="team__title-title">{student.name}</h3>
+                                <span className="team__title-meta">Class – {student.class}</span>
                             </div>
                         </div>
-                        <div className="team__title">
-                            <h3 className="team__title-title">{student.name}</h3>
-                            <span className="team__title-meta">Class – {student.class}</span>
-                        </div>
                     </div>
-                </div>
-            )
-        } else {
-            students.push(
-                <div className="col-lg-2 col-sm-6 col-half-offset">
-                    <div className="team-item team-item1">
-                        <div className="team__title">
-                            <h3 className="team__title-title">{student.name}</h3>
-                            <span className="team__title-meta">Class – {student.class}</span>
-                            <span className="team__title-meta">rank – {student.classRank}</span>
+                )
+            } else {
+                students.push(
+                    <div className="col-lg-2 col-sm-6 col-half-offset">
+                        <div className="team-item team-item1">
+                            <div className="team__title">
+                                <h3 className="team__title-title">{student.name}</h3>
+                                <span className="team__title-meta">Class – {student.class}</span>
+                                <span className="team__title-meta">rank – {student.classRank}</span>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-            )
+                )
+            }
+
         }
-
     }
     return (
         <section className="event-detail-area no-padding">

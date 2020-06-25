@@ -18,9 +18,6 @@ const VolunteerArea = () => {
                 <div className="row">
                     <div className="col-lg-8 mx-auto">
                         <div className="section-heading service-heading">
-                            <div className="section-icon">
-                                <img src="/images/favicon.png" alt="section-icon" />
-                            </div>
                             <h2 className="section__title">Volunteers Around
                                 the World</h2>
                             <p className="section__meta">help us now</p>

@@ -19,9 +19,6 @@ class EntryArea extends Component {
                     <div className="row entry-static-wrap">
                         <div className="col-lg-3">
                             <div className="entry-static-box entry-static-box1">
-                                <div className="section-icon">
-                                    <img src="/images/favicon.png" alt="section-icon" />
-                                </div>
                                 <h4 className="entry__title">Hunger is stalking the globe</h4>
                             </div>
                         </div>

@@ -34,7 +34,6 @@ const HelpingArea = () => {
             message: 'Thank you for registering yourself as angel sponsor. We will get touch with you'
             });
             document.getElementById("sponsor-register").reset();
-            alert(response.message);
         } else {
             setResponse({
             type: 'error',
@@ -142,6 +141,7 @@ const HelpingArea = () => {
                                             </div>
                                             <div className="col-lg-12">
                                                 <button className="theme-btn submit__btn">continue now</button>
+                                                <label>{ response.message }</label>
                                             </div>
                                         </div>
                                     </form>

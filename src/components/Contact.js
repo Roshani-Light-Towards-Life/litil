@@ -36,7 +36,7 @@ const Contact = () => {
             message: 'Thank you for your message. We will get in touch with you'
             });
             document.getElementById("message").reset();
-            alert(response.message);
+            // alert(response.message);
         } else {
             setResponse({
             type: 'error',
@@ -108,6 +108,7 @@ const Contact = () => {
 
                                     <div className="col-lg-12 col-sm-12">
                                         <button className="theme-btn submit__btn" type="submit">Send Message</button>
+                                        <label>{ response.message }</label>
                                     </div>
                                 </div>
                             </form>

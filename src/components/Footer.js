@@ -59,7 +59,7 @@ class Footer extends Component {
                                     <h3 className="widget__title">contact</h3>
                                     <ul className="contact__info">
                                         <li>Prestige Silver Creast, Kadubisanahalli, Bengaluru, PIN-560103</li>
-                                        < li > < a href = "mailto:ontact@roshani.co.in" > contact @roshani.co.in < /a></li >
+                                        <li> <a href = "mailto:contact@roshani.co.in" > contact@roshani.co.in </a></li>
                                         <li><a href="tel:7483481458">+91-748 348 1458</a></li>
                                     </ul>
                                     <div className="footer__social">

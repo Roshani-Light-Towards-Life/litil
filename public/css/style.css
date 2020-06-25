@@ -3240,11 +3240,14 @@ a:hover {
     position: relative;
     z-index: 1;
     margin-top: -361px;
+    height: 769px;
 }
 .helping-area2:after {
     background-color: #863bae;
     margin-top: -261px;
     height: 741px;
+    z-index: 0;
+    height: 769px;
 }
 .helping-area2 .helping-form .form-shared {
     margin-top: 51px;

@@ -113,7 +113,7 @@ const Contact = () => {
                 <div className="row contact-detail-action">
                     <div className="col-lg-4">
                         <div className="contact-item contact-item1">
-                            <h3 className="contact__title"></h3>
+                            <h3 className="contact__title">About</h3>
                             <p className="contact__desc">
                                 A non-profit org on a mission to contribute for children's education, women's financial freedom and self-reliant rural India.
                             </p>

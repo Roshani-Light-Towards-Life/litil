@@ -73,7 +73,7 @@ const TrainingCentreDetail = (props) => {
                         <div className="row blog-content-wrap">
                         {
                             trainingCenter.activities && trainingCenter.activities.map(activity => (
-                              <div className="col-lg-6">
+                              <div className="col-lg-4">
                                   <div className="blog-content">
                                       <div className="blog-item blog-item1">
                                           <div className="blog-img">

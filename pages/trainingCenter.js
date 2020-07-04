@@ -25,7 +25,7 @@ const TrainingCenterPage = () => {
         return <div>Loading...</div>;
       }
     return (
-        <Layout pageTitle="ROSHANI | Schools">
+        <Layout pageTitle="ROSHANI | Skill Training Center">
             <NavOne />
             <PageHeader title="trainingCenter" />
             <section className="sponsor-area">

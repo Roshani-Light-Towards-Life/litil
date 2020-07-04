@@ -28,7 +28,7 @@ const SkillTrainingPage = () => {
       }
 
     return (
-        <Layout pageTitle="ROSHANI | SkillTraining Detail">
+        <Layout pageTitle="ROSHANI | Skill Training Details">
             <NavOne />
             <PageHeader title="Skill Training Center" />
             {TrainingCentreDetail()}

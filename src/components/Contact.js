@@ -67,10 +67,8 @@ const Contact = () => {
                                 for following causes: Children 's education & wellness, Women's financial freedom, Literacy and awareness in rural India.
                             </p>
                             <ul className="section__list">
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                                < li > < a href = "https://twitter.com/ROSHANI76815171" target="_blank" > < i className = "fa fa-twitter" > < /i></a > < /li>
+                                < li > < a href = "https://www.facebook.com/Roshani-Light-Towards-Life-110800777345226" target="_blank" > < i className = "fa fa-facebook" > < /i></a > < /li>
                             </ul>
                         </div>
                     </div>
@@ -115,7 +113,7 @@ const Contact = () => {
                 <div className="row contact-detail-action">
                     <div className="col-lg-4">
                         <div className="contact-item contact-item1">
-                            <h3 className="contact__title"></h3>
+                            <h3 className="contact__title">About</h3>
                             <p className="contact__desc">
                                 A non-profit org on a mission to contribute for children's education, women's financial freedom and self-reliant rural India.
                             </p>

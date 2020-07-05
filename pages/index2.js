@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from "../src/components/Layout";
+import Layout from "../src/components/layout";
 import NavTwo from "../src/components/NavTwo";
 import Footer from "../src/components/Footer";
 import SliderTwo from "../src/components/SliderTwo";

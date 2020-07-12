@@ -20,7 +20,7 @@ const HelpingArea = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-        const res = await fetch('http://localhost:1337/sponsors', {
+        const res = await fetch('http://area51:1337/sponsors', {
             method: 'POST',
             body: JSON.stringify(sponsor),
             headers: { 'Content-Type': 'application/json' }

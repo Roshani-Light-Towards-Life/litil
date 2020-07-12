@@ -22,7 +22,7 @@ const Contact = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-        const res = await fetch('http://localhost:1337/messages', {
+        const res = await fetch('http://area51:1337/messages', {
             method: 'POST',
             body: JSON.stringify(message),
             headers: { 'Content-Type': 'application/json' }

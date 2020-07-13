@@ -3694,7 +3694,7 @@ inherits@2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-invariant@^2.2.2:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5956,6 +5956,15 @@ raw-loader@^4.0.1:
     loader-utils "^2.0.0"
     schema-utils "^2.6.5"
 
+react-advanced-form@^1.7.2:
+  version "1.7.2"
+  resolved "http://npm.paypal.com/artifactory/api/npm/npm-all/react-advanced-form/-/react-advanced-form-1.7.2.tgz#8c5b76d643a0ccbb8e2f529cf239cadb98a1c620"
+  integrity sha1-jFt21kOgzLuOL1Kc8jnK25ihxiA=
+  dependencies:
+    hoist-non-react-statics "^3.3.0"
+    invariant "^2.2.4"
+    rxjs "^6.5.1"
+
 react-apollo@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-3.1.5.tgz#36692d393c47e7ccc37f0a885c7cc5a8b4961c91"
@@ -6405,6 +6414,13 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   integrity sha1-6Eg5bwV9Ij8kOGkkYY4laUFh7Ec=
   dependencies:
     aproba "^1.1.1"
+
+rxjs@^6.5.1:
+  version "6.6.0"
+  resolved "http://npm.paypal.com/artifactory/api/npm/npm-all/rxjs/-/rxjs-6.6.0.tgz#af2901eedf02e3a83ffa7f886240ff9018bbec84"
+  integrity sha1-rykB7t8C46g/+n+IYkD/kBi77IQ=
+  dependencies:
+    tslib "^1.9.0"
 
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"

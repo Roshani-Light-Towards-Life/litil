@@ -9,7 +9,7 @@ const CallToAction = () => {
                         <div className="section-heading mixer-heading">
                             <h2 className="section__title text__white">Our fingerprints on the lives we touch never
                                 fade</h2>
-                            <a href="/donate" className="theme-btn">start donation</a>
+                            <a href="#" className="theme-btn">start donation</a>
                         </div>
                     </div>
                 </div>

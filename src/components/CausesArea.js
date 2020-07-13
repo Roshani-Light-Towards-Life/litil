@@ -31,7 +31,7 @@ const CausesArea = () => {
                                         <h3 className="blog__title"><a href="/causes-detail">They want to Study</a>
                                         </h3>
                                         <p className="blog__desc">We are committed to facilitate free & quality education to every poor child in India. We offer scholarships to the students based on merit list.</p>
-                                        <a href="/donate" className="theme-btn">donate now</a>
+                                        <a href="#" className="theme-btn">donate now</a>
                                     </div>
                                 </div>
                             </div>
@@ -52,8 +52,8 @@ const CausesArea = () => {
                                     <div className="blog-inner-content">
                                         <h3 className="blog__title"><a href="/causes-detail">Sports & Wellness</a>
                                         </h3>
-                                        <p className="blog__desc">We support physical wellbeing of children by donating Sports Kits & setting up libraries to the schools. We also help schools to conduct Yoga & Mediation classes for children.</p>
-                                        <a href="/donate" className="theme-btn">donate now</a>
+                                        <p className="blog__desc">We support physical wellbeing of children by donating Sports Kits & setting up libraries to the schools. We also help schools to conduct Yoga & Mediation classes.</p>
+                                        <a href="#" className="theme-btn">donate now</a>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ const CausesArea = () => {
                                     <div className="blog-inner-content">
                                         <h3 className="blog__title"><a href="/causes-detail">Their Dreams want to take-off</a></h3>
                                         <p className="blog__desc">Every child is special and so is their dreams. We help to connect little dreamers with an Angel Sponsor.</p>
-                                        <a href="/donate" className="theme-btn">donate now</a>
+                                        <a href="#" className="theme-btn">donate now</a>
                                     </div>
                                 </div>
                             </div>

@@ -94,7 +94,7 @@ class NavOne extends Component {
                                             </Link>
                                         </div>
                                         <div className="header-btn ml-auto">
-                                            <Link href="/donate">
+                                            <Link href="#">
                                                 <a className="theme-btn">donate now</a>
                                             </Link>
                                         </div>
@@ -173,7 +173,7 @@ class NavOne extends Component {
                                     <ul className="side-sub-menu">
                                         <li><Link href="/causes"><a>causes</a></Link></li>
                                         <li><Link href="/causes-detail"><a>causes detail</a></Link></li>
-                                        <li><Link href="/donate"><a>donate now</a></Link></li>
+                                        <li><Link href="#"><a>donate now</a></Link></li>
                                     </ul>
                                 </li>
                                 <li className="sidenav__item"><a href="#">event</a>
@@ -209,7 +209,7 @@ class NavOne extends Component {
                                 <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
                             </ul>
                             <div className="side-btn">
-                                <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                <Link href="#"><a className="theme-btn">donate now</a></Link>
                             </div>
                         </div>
                     </div>

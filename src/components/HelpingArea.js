@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';   
-
+import {HOST} from "../../config"
 const HelpingArea = () => {
     
     const [sponsor, setSponsor] = useState({
@@ -20,7 +20,7 @@ const HelpingArea = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-        const res = await fetch('http://localhost:1337/sponsors', {
+        const res = await fetch( HOST + '/sponsors', {
             method: 'POST',
             body: JSON.stringify(sponsor),
             headers: { 'Content-Type': 'application/json' }
@@ -113,6 +113,7 @@ const HelpingArea = () => {
                                 </div>
                                 <div className="form-shared">
                                     <form id="sponsor-register" onSubmit={handleSubmit}>
+                                    <label style={{color:"darkorange"}}>{ response.message }</label>
                                         <div className="row">
                                             <div className="col-lg-12">
                                                 <div className="form-group">
@@ -139,7 +140,7 @@ const HelpingArea = () => {
                                             </div>
                                             <div className="col-lg-12">
                                                 <button className="theme-btn submit__btn">continue now</button>
-                                                <label>{ response.message }</label>
+                                                
                                             </div>
                                         </div>
                                     </form>

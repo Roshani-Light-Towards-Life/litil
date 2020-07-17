@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { Form } from 'react-advanced-form';
+import {HOST} from '../../config'
+    import { from } from 'apollo-boost';
 
 const Contact = () => {
 
@@ -22,7 +24,7 @@ const Contact = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-        const res = await fetch('http://localhost:1337/messages', {
+        const res = await fetch(HOST + '/messages', {
             method: 'POST',
             body: JSON.stringify(message),
             headers: { 'Content-Type': 'application/json' }
@@ -75,6 +77,7 @@ const Contact = () => {
                     <div className="col-lg-6">
                         <div className="form-shared">
                             <form id="message" onSubmit={handleSubmit}>
+                            <label style={{color: "darkorange"}}>{ response.message }</label>
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6 form-group">
                                         <input className="form-control" type="text" name="name" placeholder="Full Name" pattern="^\D+$"
@@ -103,7 +106,6 @@ const Contact = () => {
 
                                     <div className="col-lg-12 col-sm-12">
                                         <button className="theme-btn submit__btn" type="submit">Send Message</button>
-                                        <label>{ response.message }</label>
                                     </div>
                                 </div>
                             </form>

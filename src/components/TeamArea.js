@@ -16,7 +16,7 @@ const TeamArea = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="team-item team-item1">
                             <div className="team__img">
-                                <img src="/images/angel-sponsor-1.jpg" alt="team image" />
+                                <img src="/images/angel-sponsor-1.png" alt="team image" />
                                     <div className="team__img-links">
                                         <ul>
                                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>

@@ -30,7 +30,7 @@ class MixerArea extends Component {
                                 <div className="section-heading mixer-heading">
                                     <h2 className="section__title text__white">Fundraising for the people and causes you
                                         care about</h2>
-                                    <a href="/donate" className="theme-btn">start donation</a>
+                                    <a href="#" className="theme-btn">start donation</a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ class MixerArea extends Component {
                 <section className="mixer-area2">
                     <div className="container">
                         <div className="row fun-content-wrap">
-                            <div className="col-lg-6">
+                            <div className="col-lg-4">
                                 <div className="fun-content">
                                     <div className="fun-item fun-item2">
                                         <i className="icon-cancer"></i>
@@ -49,13 +49,18 @@ class MixerArea extends Component {
                                         </h3>
                                         <p className="fun__text">Students who received scholarships</p>
                                     </div>
+                                    <div className="fun-item fun-item2">
+                                        <i className="icon-cancer"></i>
+                                        <h3 className="counter">
+                                            40
+                                        </h3>
+                                        <p className="fun__text">Women who received skill trainings</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-8">
                                 <div className="fun-content-slide">
-
                                     <Swiper>
-
                                         <div className="fun-slide-item">
                                             <div className="icon-quote">“</div>
                                             <h3 className="funslide__text">

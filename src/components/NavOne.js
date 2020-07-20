@@ -74,6 +74,7 @@ class NavOne extends Component {
                                             <ul className="top-action-list d-flex align-items-center">
                                                 <li><a href="https://twitter.com/ROSHANI76815171" target="_blank" ><i className="fa fa-twitter"></i></a></li>
                                                 <li><a href="https://www.facebook.com/Roshani-Light-Towards-Life-110800777345226" target="_blank" ><i className="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/company/roshani-ngo/" target="_blank"><i className ="fa fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -94,7 +95,7 @@ class NavOne extends Component {
                                             </Link>
                                         </div>
                                         <div className="header-btn ml-auto">
-                                            <Link href="/donate">
+                                            <Link href="#">
                                                 <a className="theme-btn">donate now</a>
                                             </Link>
                                         </div>
@@ -173,7 +174,7 @@ class NavOne extends Component {
                                     <ul className="side-sub-menu">
                                         <li><Link href="/causes"><a>causes</a></Link></li>
                                         <li><Link href="/causes-detail"><a>causes detail</a></Link></li>
-                                        <li><Link href="/donate"><a>donate now</a></Link></li>
+                                        <li><Link href="#"><a>donate now</a></Link></li>
                                     </ul>
                                 </li>
                                 <li className="sidenav__item"><a href="#">event</a>
@@ -209,7 +210,7 @@ class NavOne extends Component {
                                 <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
                             </ul>
                             <div className="side-btn">
-                                <Link href="/donate"><a className="theme-btn">donate now</a></Link>
+                                <Link href="#"><a className="theme-btn">donate now</a></Link>
                             </div>
                         </div>
                     </div>

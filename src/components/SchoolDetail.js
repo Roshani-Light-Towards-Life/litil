@@ -59,7 +59,7 @@ class SchoolDetail extends Component {
                             <div className="blog-content">
                                 <div className="blog-item">
                                     <div className="blog-img">
-                                        <img src={buildImageUri(school.image.url)} alt="" />
+                                        {school.image?<img src={buildImageUri(school.image.url)} alt="" />: null}
                                     </div>
                                     <div className="blog-inner-content">
                                         <div className="inner-causes-box">
@@ -71,7 +71,7 @@ class SchoolDetail extends Component {
 
                                     </div>
                                     <div className="blog-inner-content-2">
-                                        <ReactMarkdown source={school.article.content} className="causes__text" />
+                                        {school.article?<ReactMarkdown source={school.article.content} className="causes__text" />:null}
                                     </div>
                                 </div>
                             </div>

@@ -12,7 +12,7 @@ const ScholarshipDetail = (props) => {
                     <div className="col-lg-2 col-sm-6 col-half-offset">
                         <div className="team-item team-item1">
                             <div className="team__img">
-                                <img src={buildImageUri(student.image.url)} alt="team image" />
+                                {student.image?<img src={buildImageUri(student.image.url)} alt="team image" />:null}
                                 <div className="team__img-links2">
                                     <span className="team__title-meta">rank – {student.classRank}</span>
                                 </div>
@@ -49,7 +49,7 @@ const ScholarshipDetail = (props) => {
                         <div className="blog-content">
                             <div className="blog-item">
                                 <div className="blog-img">
-                                    <GalleryCarousel images={scholarship.article.images}></GalleryCarousel>
+                                    {scholarship.article&& scholarship.article.images?<GalleryCarousel images={scholarship.article.images}></GalleryCarousel>:null}
                                     <span className="blog__tag">
                                         <span className="date__num-text">{scholarship.year}</span>
                                     </span>
@@ -60,7 +60,7 @@ const ScholarshipDetail = (props) => {
                     <div className="col-lg-12">
                         <div className="event-detail-content">
                             <div className="event-detail-item">
-                                <ReactMarkdown source={scholarship.article.content} className="event__text" />
+                                {scholarship.article?<ReactMarkdown source={scholarship.article.content} className="event__text" />:null}
                             </div>
                             <div className="event-detail-item">
                                 <h3 className="event__title event__title2">Students Benifited</h3>

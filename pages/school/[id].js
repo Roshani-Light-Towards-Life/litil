@@ -27,7 +27,7 @@ const SchoolPage = ({ props }) => {
             </Layout>
         );
     }
-    return <Error statusCode="404"></Error>;
+    return <div>loading ...</div>;
 };
 SchoolPage.getInitialProps = async ({ ctx, apolloClient }) => {
     console.log(ctx.query)

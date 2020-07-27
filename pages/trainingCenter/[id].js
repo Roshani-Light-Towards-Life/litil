@@ -17,7 +17,7 @@ const SkillTrainingPage = ({ props }) => {
           </Layout>
       );
   }
-  return <Error statusCode="404"></Error>;
+  return <div>loading ...</div>;
 };
 SkillTrainingPage.getInitialProps = async ({ ctx, apolloClient }) => {
   console.log(ctx.query)

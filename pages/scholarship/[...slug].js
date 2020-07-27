@@ -19,7 +19,7 @@ const ScholarshipPage = ({ props }) => {
             </Layout>
         );
     }
-    return <Error statusCode="404"></Error>;
+    return <div>loading ...</div>;
 
 };
 ScholarshipPage.getInitialProps = async ({ ctx, apolloClient }) => {

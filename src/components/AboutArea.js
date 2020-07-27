@@ -20,7 +20,6 @@ const AboutArea = () => {
                             <div className="section-heading">
                             
                                 <h2 className="section__title">Discover About ROSHANI</h2>
-                                <p className="section__meta">learn about the non profit org</p>
                                 <p className="section__desc">
                                     We are a bunch of passionate and motivated people, who actually believe that the world can be made a better place
                                     for every human being. A better home, a better school, a better society and of cource a better life.

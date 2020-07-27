@@ -10,7 +10,7 @@ const MixerAreaTwo = () => {
                         <div className="section-heading mixer-heading">
                             <h2 className="section__title text__white">Our fingerprints on the lives we touch never
                                 fade</h2>
-                            <Link href="/donate"><a className="theme-btn">start donation</a></Link>
+                            <Link href="#"><a className="theme-btn">start donation</a></Link>
                         </div>
                     </div>
                 </div>
